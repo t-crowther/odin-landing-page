@@ -1,0 +1,27 @@
+body {
+    height: 1440px;
+    width: 1912px;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Roboto", serif;
+}
+
+.header-section-01 {
+    height: 360px;
+    background-color: #1f2937;
+}
+
+.section-02 {
+    height: 360px;
+    background-color: white
+}
+
+.section-03 {
+    height: 360px;
+    background-color: #e5e7eb;
+}
+
+.section-04-footer {
+    height: 360px;
+    background-color: white;
+}
