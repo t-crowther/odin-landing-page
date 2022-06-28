@@ -1,5 +1,5 @@
 body {
-    height: 1800px;
+    height: 1700px;
     width: auto;
     box-sizing: border-box;
     margin: 0;
@@ -87,12 +87,109 @@ body {
     background-color: white
 }
 
+.s2-img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.s2-images,
+.s2-text {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    text-align: center;
+    margin: 10px;
+}
+
+.s2-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 35px;
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+.s2-text-writing {
+    width: 200px;
+}
+
 .section-03 {
     height: 450px;
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #565f6f;
+}
+
+.quote,
+.attribution {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.attribution {
+    align-self: flex-end;
+    color: #1f2937;
+    font-size: 36px;
 }
 
 .section-04-footer {
-    height: 450px;
+    height: 350px;
     background-color: white;
+}
+
+.section-04 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 310px;
+}
+
+.s4-box {
+    background-color: #3882f6;
+    border-radius: 12px;
+    width: 80%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.s4-title {
+    font-size: 32px;
+    color: #e5e7eb;
+}
+
+.s4-description {
+    font-size: 20px;
+    color: #e5e7eb;
+}
+
+.s4-button {
+    background-color: #3882f6;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    font-family: "Roboto", serif;
+    color: #e5e7eb;
+    width: 120px;
+    padding: 10px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    font-size: 20px;
+    color: #e5e7eb;
 }
