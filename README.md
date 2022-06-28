@@ -1,1 +1,3 @@
 # odin-landing-page
+
+This is the second project in the TOP curriculum. Stepping up from a simple recipe website, this project has me building a functional landing page that would typically be seen for many uses on the Internet. Not only does this project expand my knowledge of HTML, but it ties together concepts learned in CSS and Flexbox. I struggled at first creating enough flex containers to align the various elements on the page, but I definitely got used to it. I also needed to learn how to scale my page, another critical use for Flexbox. In the end, I completed this project and I am very proud of the way it works. I have no legal claim to the image used in this webpage, all credit goes to the New York Times.

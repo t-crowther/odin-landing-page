@@ -4,6 +4,7 @@ body {
     box-sizing: border-box;
     margin: 0;
     font-family: "Roboto", serif;
+    min-width: 995px
 }
 
 .header-section-01 {
@@ -13,8 +14,8 @@ body {
 
 .header-container {
     display: flex;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 15%;
+    margin-right: 15%;
     padding-top: 15px;
     padding-bottom: 15px;
 
@@ -25,6 +26,7 @@ body {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 
     margin-right: auto;
 }
@@ -35,12 +37,13 @@ body {
 }
 
 .section-01 {
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 15%;
+    margin-right: 15%;
     display: flex;
     margin-top: 50px;
     gap: 10px;
     align-items: center;
+    height: auto;
 }
 
 .s1-left,
@@ -54,7 +57,7 @@ body {
 
 .s1-title {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bold;
     color: #f9faf8;
     padding: 5px;
 }
@@ -116,7 +119,7 @@ body {
 }
 
 .section-03 {
-    height: 450px;
+    height: 530px;
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -127,19 +130,21 @@ body {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #565f6f;
+    color: #1f2937
 }
 
 .quote,
 .attribution {
     margin-left: 250px;
     margin-right: 250px;
+    margin-bottom: 15px;
 }
 
 .attribution {
     align-self: flex-end;
     color: #1f2937;
     font-size: 36px;
+    text-align: right;
 }
 
 .section-04-footer {
@@ -179,6 +184,8 @@ body {
     border: 2px solid #e5e7eb;
     border-radius: 8px;
     font-family: "Roboto", serif;
+    font-weight: bold;
+    font-size: 15px;
     color: #e5e7eb;
     width: 120px;
     padding: 10px;
@@ -192,4 +199,8 @@ body {
     height: 75px;
     font-size: 20px;
     color: #e5e7eb;
+}
+
+a:link {
+    text-decoration: none;
 }
